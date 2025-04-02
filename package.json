@@ -1,0 +1,24 @@
+{
+  "name": "devburger-api",
+  "version": "1.0.0",
+  "description": "DevBurger API",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": {
+    "name": "Lucas Rios",
+    "url": "https://github.com/lucasriosdev"
+  },
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "nodemon": "^3.1.9",
+    "sucrase": "^3.35.0"
+  }
+}
